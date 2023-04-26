@@ -89,6 +89,7 @@ mysqli_close($conn);
 
 
 
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -100,10 +101,13 @@ mysqli_close($conn);
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <title>User</title>
+     <link rel="stylesheet" href="register.css">
   </head>
+
+
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">User</a>
+  <a class="navbar-brand" href="#">Medicine</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -132,21 +136,35 @@ mysqli_close($conn);
 <h3>Please Register Here:</h3>
 <hr>
 <form action="" method="post">
-  <div class="form-row">
-    <div class="form-group col-md-6">
+
+  <!-- main div  -->
+
+  <div class="form-row maindiv">
+
+     <div class="form-group ">
+      <!-- col-md-6 -->
+
       <label for="inputEmail4">Username</label>
-      <input type="text" class="form-control" name="username" id="inputEmail4" placeholder="Email">
-    </div>
+      <input type="text"  class="form-control" name="username" id="inputEmail4" placeholder="Email">
+
+     </div>
  
-    <div class="form-group col-md-7">
+     <div class="form-group ">
+      <!-- col-md-7 -->
       <label for="inputPassword4">Password</label>
       <input type="password" class="form-control" name ="password" id="inputPassword4" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-group">
+     </div>
+
+
+           <!-- third div  -->
+     <div class="form-group">
       <label for="inputPassword4">Confirm Password</label>
       <input type="password" class="form-control" name ="confirm_password" id="inputPassword" placeholder="Confirm Password">
-    </div>
+     </div>
+
+  </div>
+
+       <!-- third div yaha tha  , outside main div   -->
 
   <div class="form-group">
     <div class="form-check">
@@ -156,8 +174,11 @@ mysqli_close($conn);
       </label>
     </div>
   </div>
+
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
+
+
 </div>
 
     <!-- Optional JavaScript -->

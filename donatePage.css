@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+:root{
+    --bg:#33c0bb;
+    --dark: #314b74;
+}
+
+ body{
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0), rgb(130, 239, 239));
+
+   background-repeat: no-repeat;
+}
+.forBGC{
+    width: 1200px;
+    margin: auto;
+    height: full;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.discriptive{
+    padding: 1rem;
+}
+#head {
+   color: var(--dark);
+   font-size: 5rem;
+   text-shadow: 3px 3px 15px var(--bg);
+
+}
+.disc2{
+   
+    font-weight: lighter;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+}
+.ready
+{
+   margin-top: 5rem;
+   padding: 1rem;
+   font-size: 3rem;
+   margin-bottom: 1rem;
+   color: var(--dark);
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    width: 60%;
+    margin: auto;
+     row-gap: 10px;
+}
+input{
+    width: 100;
+    height: 1.8rem;
+    
+}
+div div {
+    width: 100%;
+    
+}
+.p1{
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+}
+.allignment{
+    width: 70%;
+}
+.len{
+    width: 100%;
+    
+}
+.btn{
+    
+    border-radius: 3px;
+    border: 1px solid rgb(8, 77, 103);
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 6px;
+    background-color: #314b74;
+    color: #33c0bb;
+    font-size: x-large;
+    width: fit-content;
+    padding: .3rem;
+    cursor: pointer;
+
+}

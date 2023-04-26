@@ -1,0 +1,41 @@
+*{  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+}  
+
+header{  
+    width: 100%;  
+    height: 80px;  
+    background-color: #6aabf5;  
+}  
+table{  
+    width: 75%;  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%,-50%);  
+}  
+.heading{  
+    background-color: #ddda2c;  
+}  
+.heading th{  
+    padding: 10px 0;  
+}  
+.data{  
+    text-align: center;  
+    color: black;  
+}  
+.data td{  
+    padding: 15px 0;  
+}  
+#btn{  
+    text-decoration: none;  
+    color: #FFF;  
+    background-color: #29d256;  
+    padding: 5px 20px;  
+    border-radius: 3px;  
+}  
+#btn:hover{  
+    background-color: #a059e8;  
+} 

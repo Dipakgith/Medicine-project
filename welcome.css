@@ -1,0 +1,37 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('');
+  background-size: 100%;
+   background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
+background-image: url(we.avif);
+  background-color: rgb(216, 187, 210);
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  /* color:  #343d68; */
+  
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+    color: #343d68;
+
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+
+

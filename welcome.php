@@ -25,7 +25,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">user</a>
+  <a class="navbar-brand" href="#">Medicine</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,14 +34,15 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="register.php">Register</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
-      </li>
+      
       <li class="nav-item">
         <a class="nav-link" href="logout.php">Logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="donate.php">Donate Medicine</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recive.php">Recive Medicine</a>
       </li>
 
       
@@ -63,23 +64,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 <div class="container mt-4">
 <h3><?php echo "Welcome ". $_SESSION['username']?>! You can now use this website</h3>
 <hr>
-<div class="form-group col-md-4">
-      <label for="inputState">Medicine</label>
-      <select id="inputState" class="form-control">
-      
-        <option>Abilify</option>
+<title>Welcome to My Website!</title>
+    <link rel="stylesheet" href="welcome.css">
+  
 
-        <option>Balversa</option>
-        <optio>Fasenra</option>
-        <option>Fluvastatin</option>
-        <option>Formoterol
-</option>
-        <option selected>Choose...</option>
-      </select>
     </div>
-
-</div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
